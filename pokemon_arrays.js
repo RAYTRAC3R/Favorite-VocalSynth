@@ -97,7 +97,8 @@ var arrays = {
 	  ],
 	  [
 	   "VY1V3",
-       "MEW"
+       "MEW",
+       "GUMIV3ADULT"
 	  ],
 	  [
 	   "CHIMCHAR",
