@@ -17,148 +17,54 @@ var arrays = {
 	  [
 	  ],
 	  [
-	   "CHESPIN",
-	   "QUILLADIN",
-	   "CHESNAUGHT",
-	   "SKIDDO",
-	   "GOGOAT",
-	   "PHANTUMP",
-	   "TREVENANT",
-	   "PUMPKABOO",
-	   "GOURGEIST",
-	   "VENUSAUR_1",
-	   "SCEPTILE_1",
-	   "ABOMASNOW_1"
 	  ],
 	  [
-	   "ROWLET",
-	   "DARTRIX",
-	   "DECIDUEYE",
-	   "FOMANTIS",
-	   "LURANTIS",
-	   "MORELULL",
-	   "SHIINOTIC",
-	   "BOUNSWEET",
-	   "STEENEE",
-	   "TSAREENA",
-	   "DHELMISE",
-	   "TAPUBULU",
-	   "KARTANA",
-	   "EXEGGUTOR_1"
 	  ],
 	  [
-	   "GROOKEY",
-	   "THWACKEY",
-	   "RILLABOOM",
-	   "RILLABOOM_1",
-	   "GOSSIFLEUR",
-	   "ELDEGOSS",
-	   "APPLIN",
-	   "FLAPPLE",
-	   "APPLETUN",
-	   "APPLETUN_1",
-	   "ZARUDE",
-	   "ZARUDE_1",
-	   "CALYREX",
-	   "VOLTORB_1",
-	   "ELECTRODE_1",
-	   "LILLIGANT_1",
-	   "DECIDUEYE_1",
-	   "VENUSAUR_2"
 	  ],
 	  [
-	   "SPRIGATITO",
-	   "FLORAGATO",
-	   "MEOWSCARADA",
-	   "SMOLIV",
-	   "DOLLIV",
-	   "ARBOLIVA",
-	   "BRAMBLIN",
-	   "BRAMBLEGHAST",
-	   "TOEDSCOOL",
-	   "TOEDSCRUEL",
-	   "CAPSAKID",
-	   "SCOVILLAIN",
-	   "BRUTEBONNET",
-	   "WOCHIEN",
-	   "DIPPLIN",
-	   "POLTCHAGEIST",
-	   "IRONLEAVES",
-	   "OGERPON"
 	  ]
 	 ],
 	 "V2": [
 	  [],
 	  [
+        "SWEETANN",
+        "PRIMA",
+        "LUKAV2ENG",
+        "SONIKA"
 	  ],
 	  [
-        "BIGAL"
+        "BIGAL",
+        "TONIO"
 	  ],
 	  [
+        "MIKUV2",
+        "RINV2",
+        "LUKAV2JPN",
+        "GUMIV2",
+        "MIKIV2",
+        "YUKIV2",
+        "LILYV2",
+        "VY1V2",
+        "IROHAV2"
 	  ],
 	  [
         "LENV2",
         "GACKPOIDV2",
+        "KIYOTERUV2",
+        "GACHAPOIDV2",
+        "PIKO",
         "VY2V2"
 	  ],
 	  [
-	   "VENIPEDE",
-	   "WHIRLIPEDE",
-	   "SCOLIPEDE",
-	   "TRUBBISH",
-	   "GARBODOR",
-	   "FOONGUS",
-	   "AMOONGUSS"
 	  ],
 	  [
-	   "SKRELP",
-	   "DRAGALGE",
-	   "VENUSAUR_1",
-	   "BEEDRILL_1",
-	   "GENGAR_1"
 	  ],
 	  [
-	   "MAREANIE",
-	   "TOXAPEX",
-	   "SALANDIT",
-	   "SALAZZLE",
-	   "NIHILEGO",
-	   "POIPOLE",
-	   "NAGANADEL",
-	   "GRIMER_1",
-	   "MUK_1"
 	  ],
 	  [
-	   "TOXEL",
-	   "TOXTRICITY",
-	   "TOXTRICITY_1",
-	   "TOXTRICITY_2",
-	   "ETERNATUS",
-	   "ETERNATUS_1",
-	   "SLOWBRO_1",
-	   "SLOWKING_1",
-	   "WEEZING_1",
-	   "SNEASEL_1",
-	   "SNEASLER",
-	   "QWILFISH_1",
-	   "OVERQWIL",
-	   "VENUSAUR_2",
-	   "GENGAR_2",
-	   "GARBODOR_1"
 	  ],
 	  [
-	   "SHROODLE",
-	   "GRAFAIAI",
-	   "VAROOM",
-	   "REVAVROOM",
-	   "GLIMMET",
-	   "GLIMMORA",
-	   "WOOPER_1",
-	   "CLODSIRE",
-	   "IRONMOTH",
-	   "OKIDOGI",
-	   "MONKIDORI",
-	   "FEZANDIPITI"
 	  ]
 	 ],
 	 "Fire": [
