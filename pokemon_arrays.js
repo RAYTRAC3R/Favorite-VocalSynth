@@ -72,7 +72,9 @@ var arrays = {
 	  [
 	   "AVANNA",
        "GUMIV3ENG",
-       "MIKUV3ENG"
+       "MIKUV3ENG",
+       "NANAV3ENG",
+       "MEIKOV3ENG"
 	  ],
 	  [
 	   "OLIVERV3",
@@ -92,7 +94,20 @@ var arrays = {
        "LAPIS",
        "LILYV3",
        "MAYU",
-       "MIKUV3JPN"
+       "MIKUV3JPN",
+       "MERLIV3",
+       "NANAV3JPN",
+       "MEIKOV3JPN",
+       "KOKONE",
+       "ANON",
+       "KANON",
+       "FLOWERV3",
+       "ZUNKOV3",
+       "IAV3ROCKS",
+       "GALACOV3RED",
+       "GALACOV3BLUE",
+       "RANAV3",
+       "CHIKAV3"
 	  ],
 	  [
 	   "GACKPOIDV3",
@@ -101,11 +116,14 @@ var arrays = {
        "YUUV3",
        "KYOV3",
        "WILV3",
-       "YOHIOLOIDV3JPN"
+       "YOHIOLOIDV3JPN",
+       "GACHAPOIDV3"
 	  ],
 	  [
 	   "TIANYIV3",
-       "YANHEV3"
+       "YANHEV3",
+       "XINHUAV3",
+       "LINGV3"
 	  ],
 	  [
 	  ],
