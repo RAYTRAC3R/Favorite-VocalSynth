@@ -131,7 +131,7 @@ English: Alcremie
 Translation: Alcremie
 
 English: Normal
-Translation: Normal
+Translation: Bass
 
 English: Fire
 Translation: Fire

@@ -2,8 +2,8 @@
 
 <head>
 	<title>DEMO</title>
-	<!-- <meta name="description" content="Find your favorite Pokemon of each generation, each type, and of all time.">
-	<meta name="keywords" content="Ultimate, Favorite, Pokemon, Pokémon, Picker">
+	<!-- <meta name="description" content="Find your favorite Vocal Synth of each engine, each range, and of all time.">
+	<meta name="keywords" content="Ultimate, Favorite, Vocal, Synth, Vocaloid, Picker">
 	<meta name="author" content="Cajun"> -->
 	<!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -582,8 +582,8 @@
 	<script src="translate.js"></script>
 	<script language="JavaScript">
 		var domlink = window.location.protocol + "//" + window.location.host + "/";
-		var type_order = ["", "Normal", "Fire", "Water", "Grass", "Electric", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy", "Starter", "Gimmick", "Legendary", "Favorite"];
-		var type_eles = ["Normal", "Fire", "Water", "Grass", "Electric", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy", "Starter", "GimmickForm", "Legend", "FavAlone"];
+		var type_order = ["", "V1", "V2", "Water", "Normal", "Electric", "Ice", "Fighting", "Fire", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy", "Starter", "Gimmick", "Legendary", "Favorite"];
+		var type_eles = ["Normal", "Fire", "Water", "V1", "Electric", "Ice", "Fighting", "V2", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy", "Starter", "GimmickForm", "Legend", "FavAlone"];
 		var other_order = ["", "team1", "team2", "team3", "team4", "team5", "team6", "Bird", "Critter", "RegionalBug", "Pseudo", "Pikaclone", "Eevee", "Fossil", "Regional", "GMax", "Box", "Mythical", "Ultra", "Paradox", "Types", "PokeBall", "Spinda", "Vivillon", "Alcremie", "alc0", "alc7", "alc14", "alc21", "alc28", "alc35", "alc42", "alc49", "alc56", "Baby", "NewEvolution"];
 		var zerogen_coords = [
 			[],
@@ -688,6 +688,13 @@
 				}
 			}
 		}
+        
+        function playAudio(samplename) { 
+            var vocsample = document.getElementById("VocalAudio");
+            // console.log(samplename);
+            vocsample.src = domlink + "/Samples/" + samplename + ".ogg"
+            vocsample.play(); 
+        } 
 
 		function bubbleRows(count) {
 			if (count == 6) {
@@ -998,6 +1005,8 @@
 			} else {
 				choices[currently_selecting[0]][currently_selecting[1]] = currently_previewing[num];
 				targetBox.src = domlink + spriteFile + "/" + currently_previewing[num] + ".png"
+                console.log("test");
+                playAudio(currently_previewing[num]);
 			}
 			if (currently_selecting[0] == 0 && currently_selecting[1] == 24) {
 				// alcremie
@@ -1034,11 +1043,11 @@
 				}
 				output += "\n";
 			}
-			output += "spindaspots,";
+			/** output += "spindaspots,";
 			for (var s in spot_map) {
 				var ax_ele = document.getElementById(s);
 				output += ax_ele.value + ",";
-			}
+			} **/
 			document.getElementById('import').value = output;
 		}
 		function loadTextbox(importbox) {
@@ -1201,7 +1210,7 @@
 				}
 			}
 			// draw Team
-			var te = document.getElementById("Team");
+			/** var te = document.getElementById("Team");
 			var font_px = (te.style.fontSize || "27px")
 			var font_size = parseInt(font_px.replace(/px/, ""));
 			var canvas_font = font_px + " " + font_name
@@ -1211,7 +1220,7 @@
 			} else {
 				te = "Team";
 			}
-			ctx.fillText(te, 240, 1245)
+			ctx.fillText(te, 240, 1245)**/
 			canvas.style.zIndex = -1;
 			var dbutton = document.getElementById("downloader")
 			dbutton.href = canvas.toDataURL("image/png");
@@ -1412,10 +1421,16 @@
 		<!--
 • <a href="javascript:changeLang('简中')">简中</a>
 • <a href="javascript:changeLang('繁中')">繁中</a>-->
+
+    <audio id="VocalAudio">
+        <source src="blank.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
 	</div>
 	<div id="grid-wrapper">
 		<!--<img class="back" id="back" src="https://cajunavenger.github.io/background.png" alt="" height="1571" width="2276" onclick="closeBox();"/>-->
-		<img class="back" id="back" src="https://cajunavenger.github.io/background3.png" alt="" height="1571"
+		<img class="back" id="back" src="background2.png" alt="" height="1571"
 			width="2276" onclick="closeBox();" />
 		<canvas id="final" height="1571" width="2276"></canvas>
 		<!-- <img class="selectionBox team-top team-left" id="box0_1" onclick="openBox(0, 1);" src="./blank.png" height="96"
@@ -1866,7 +1881,7 @@
 			height="96" width="96">
 		<img class="selectionBox gen-9-box type-22-box" id="box9_22" onclick="openBox(9, 22);" src="./blank.png"
 			height="96" width="96">
-		<!-- <img class="selectionBox fav-type-box type-1-box" id="box10_1" onclick="openBox(10, 1);" src="./blank.png"
+		<img class="selectionBox fav-type-box type-1-box" id="box10_1" onclick="openBox(10, 1);" src="./blank.png"
 			height="96" width="96">
 		<img class="selectionBox fav-type-box type-2-box" id="box10_2" onclick="openBox(10, 2);" src="./blank.png"
 			height="96" width="96">
@@ -1909,7 +1924,7 @@
 		<img class="selectionBox fav-type-box type-21-box" id="box10_21" onclick="openBox(10, 21);" src="./blank.png"
 			height="96" width="96">
 		<img class="selectionBox fav-type-box type-22-box" id="box10_22" onclick="openBox(10, 22);" src="./blank.png"
-			height="96" width="96"><img class="charm" id="charm" src="./charm.png" alt="" height="64" width="64"
+			height="96" width="96"><!-- <img class="charm" id="charm" src="./charm.png" alt="" height="64" width="64"
 			onclick="activateShiny();" /> -->
 
 		<img class="preview" id="preview0" src="./blank.png" height="96" width="96" onclick="pickMon(0);">
@@ -1993,22 +2008,22 @@
 			Up/Down on the first box moves it Right/Left.<br>
 			Up/Down on the second box moves it Up/Down.
 		</span>
-		<input type="button" id="btnRandom" value="Randomize!" onclick="randomSpinda()" />
+		<input type="button" id="btnRandom" value="Randomize!" onclick="randomSpinda()" /> --->
 		<span id="button-wrapper">
 			<a id="downloader" download="download"></a>
 			<br><input type="button" id="btnPrint" value="Download Image" onclick="drawFinal()" target="_blank" />
 			<input type="button" id="btnExport" value="Export Choices" onclick="printTextbox()" />
 			<input type="button" id="btnLoad" value="Import Choices" onclick="loadTextbox()" />
 			<input type="button" id="btnReset" value="Reset The Grid!" onclick="resetGrid()" />
-		</span> -->
-		<!-- <textarea id="import" rows="13" cols="72" spellcheck="false">
+		</span>
+		<textarea id="import" rows="13" cols="72" spellcheck="false">
 # Don't like my choices? You can overrule them here!
-# Write Code will put a text version of the grid here
-# Then you can edit the names and Import Code to replace the images.
+# Export Choices will put a text version of the grid here
+# Then you can edit the names and Import Choices to replace the images.
 # Most Pokemon are just their named capitalized, like SWELLOW.
 # Alternate forms have specific tags, like MEOWTH_2 for Galarian Meowth.
 # You can also use this to keep backups
-</textarea> -->
+</textarea>
 		<div class="bubble" id="bubble"></div>
 		<img class="aura" id="aura0"></img>
 		<img class="aura" id="aura1"></img>
