@@ -70,118 +70,54 @@ var arrays = {
 	 "V3": [
 	  [],
 	  [
-	   "CHARMANDER",
-	   "CHARMELEON",
-	   "CHARIZARD",
-	   "VULPIX",
-	   "NINETALES",
-	   "GROWLITHE",
-	   "ARCANINE",
-	   "PONYTA",
-	   "RAPIDASH",
-	   "MAGMAR",
-	   "FLAREON",
-	   "MOLTRES"
+	   "AVANNA",
+       "GUMIV3ENG",
+       "MIKUV3ENG"
 	  ],
 	  [
-	   "CYNDAQUIL",
-	   "QUILAVA",
-	   "TYPHLOSION",
-	   "SLUGMA",
-	   "MAGCARGO",
-	   "HOUNDOUR",
-	   "HOUNDOOM",
-	   "MAGBY",
-	   "ENTEI",
-	   "HOOH"
+	   "OLIVERV3",
+       "KAITOV3ENG",
+       "YOHIOLOIDV3ENG"
 	  ],
 	  [
 	   "VY1V3",
        "MEW",
-       "GUMIV3ADULT"
+       //"GUMIV3ADULT",
+       "SEEUV3JPN",
+       "TONERIONV3",
+       "CULV3",
+       "YUKARIV3",
+       "IAV3",
+       "GUMIV3JPN",
+       "LAPIS",
+       "LILYV3",
+       "MAYU",
+       "MIKUV3JPN"
 	  ],
 	  [
-	   "CHIMCHAR",
-	   "MONFERNO",
-	   "INFERNAPE",
-	   "MAGMORTAR",
-	   "ROTOM_1",
-	   "HEATRAN"
+	   "GACKPOIDV3",
+       "VY2V3",
+       "KAITOV3JPN",
+       "YUUV3",
+       "KYOV3",
+       "WILV3",
+       "YOHIOLOIDV3JPN"
 	  ],
 	  [
-	   "VICTINI",
-	   "TEPIG",
-	   "PIGNITE",
-	   "EMBOAR",
-	   "PANSEAR",
-	   "SIMISEAR",
-	   "DARUMAKA",
-	   "DARMANITAN",
-	   "DARMANITAN_1",
-	   "LITWICK",
-	   "LAMPENT",
-	   "CHANDELURE",
-	   "HEATMOR",
-	   "LARVESTA",
-	   "VOLCARONA",
-	   "RESHIRAM"
+	   "TIANYIV3",
+       "YANHEV3"
 	  ],
 	  [
-	   "FENNEKIN",
-	   "BRAIXEN",
-	   "DELPHOX",
-	   "FLETCHINDER",
-	   "TALONFLAME",
-	   "LITLEO",
-	   "PYROAR",
-	   "PYROAR_1",
-	   "VOLCANION",
-	   "CHARIZARD_1",
-	   "CHARIZARD_2",
-	   "HOUNDOOM_1",
-	   "BLAZIKEN_1",
-	   "CAMERUPT_1",
-	   "GROUDON_1"
 	  ],
 	  [
-	   "LITTEN",
-	   "TORRACAT",
-	   "INCINEROAR",
-	   "ORICORIO",
-	   "SALANDIT",
-	   "SALAZZLE",
-	   "TURTONATOR",
-	   "BLACEPHALON",
-	   "MAROWAK_1"
+	   "CLARAV3",
+       "MAIKA"
 	  ],
 	  [
-	   "SCORBUNNY",
-	   "RABOOT",
-	   "CINDERACE",
-	   "CINDERACE_1",
-	   "CARKOL",
-	   "COALOSSAL",
-	   "COALOSSAL_1",
-	   "SIZZLIPEDE",
-	   "CENTISKORCH",
-	   "CENTISKORCH_1",
-	   "GROWLITHE_1",
-	   "ARCANINE_1",
-	   "TYPHLOSION_1",
-	   "DARMANITAN_3",
-	   "CHARIZARD_3"
+	   "BRUNOV3"
 	  ],
 	  [
-	   "FUECOCO",
-	   "CROCALOR",
-	   "SKELEDIRGE",
-	   "CHARCADET",
-	   "ARMAROUGE",
-	   "CERULEDGE",
-	   "SCOVILLAIN",
-	   "IRONMOTH",
-	   "CHIYU",
-	   "TAUROS_2"
+	   "SEEUV3KOR"
 	  ]
 	 ],
 	 "Flying": [
