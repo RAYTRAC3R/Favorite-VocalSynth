@@ -215,116 +215,36 @@ var arrays = {
 	 "V5": [
 	  [],
 	  [
-	   "DRATINI",
-	   "DRAGONAIR",
-	   "DRAGONITE"
+	   "AMYV5",
+       "CYBERDIVAV5"
 	  ],
 	  [
-	   "KINGDRA"
+	   "CHRISV5",
+       "CYBERSONGMANV5"
 	  ],
 	  [
-	   "VIBRAVA",
-	   "FLYGON",
-	   "ALTARIA",
-	   "BAGON",
-	   "SHELGON",
-	   "SALAMENCE",
-	   "LATIAS",
-	   "LATIOS",
-	   "RAYQUAZA"
+	   "KAORIV5",
+       "VY1V5",
+       "SORAV5",
+       "HIMEV5",
+       "MIKOTOV5"
 	  ],
 	  [
-	   "GIBLE",
-	   "GABITE",
-	   "GARCHOMP",
-	   "DIALGA",
-	   "PALKIA",
-	   "GIRATINA",
-	   "GIRATINA_1",
-	   "DIALGA_2"
+	   "KENV5",
+       "VY2V5"
 	  ],
 	  [
-	   "AXEW",
-	   "FRAXURE",
-	   "HAXORUS",
-	   "DRUDDIGON",
-	   "DEINO",
-	   "ZWEILOUS",
-	   "HYDREIGON",
-	   "RESHIRAM",
-	   "ZEKROM",
-	   "KYUREM",
-	   "KYUREM_1",
-	   "KYUREM_2"
+	   "TIANYIV5",
+       "YANHEV5",
+       "LINGV5"
 	  ],
 	  [
-	   "DRAGALGE",
-	   "TYRUNT",
-	   "TYRANTRUM",
-	   "GOOMY",
-	   "SLIGGOO",
-	   "GOODRA",
-	   "NOIBAT",
-	   "NOIVERN",
-	   "ZYGARDE",
-	   "CHARIZARD_1",
-	   "AMPHAROS_1",
-	   "SCEPTILE_1",
-	   "ALTARIA_1",
-	   "SALAMENCE_1",
-	   "LATIAS_1",
-	   "LATIOS_1",
-	   "RAYQUAZA_1",
-	   "GARCHOMP_1"
 	  ],
 	  [
-	   "TURTONATOR",
-	   "DRAMPA",
-	   "JANGMOO",
-	   "HAKAMOO",
-	   "KOMMOO",
-	   "GUZZLORD",
-	   "NECROZMA_3",
-	   "NAGANADEL",
-	   "EXEGGUTOR_1",
-	   "ZYGARDE_1",
-	   "ZYGARDE_2"
 	  ],
 	  [
-	   "APPLIN",
-	   "FLAPPLE",
-	   "APPLETUN",
-	   "APPLETUN_1",
-	   "DRACOZOLT",
-	   "DRACOVISH",
-	   "DURALUDON",
-	   "DURALUDON_1",
-	   "DREEPY",
-	   "DRAKLOAK",
-	   "DRAGAPULT",
-	   "ETERNATUS",
-	   "ETERNATUS_1",
-	   "REGIDRAGO",
-	   "DIALGA_1",
-	   "PALKIA_1",
-	   "SLIGGOO_1",
-	   "GOODRA_1"
 	  ],
 	  [
-	   "CYCLIZAR",
-	   "TATSUGIRI",
-	   "TATSUGIRI_1",
-	   "TATSUGIRI_2",
-	   "FRIGIBAX",
-	   "ARCTIBAX",
-	   "BAXCALIBUR",
-	   "ROARINGMOON",
-	   "KORAIDON",
-	   "MIRAIDON",
-	   "RAGINGBOLT",
-	   "WALKINGWAKE",
-	   "ARCHALUDON",
-	   "DIPPLIN"
 	  ]
 	 ],
 	 "Water": [
