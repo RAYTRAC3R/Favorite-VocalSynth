@@ -250,16 +250,46 @@ var arrays = {
 	 "V6": [
 	  [],
 	  [
-	   "SARAHV6"
+	   "SARAHV6",
+       "MICHELLEV6",
+       "JESSICAV6",
+       "SANDRAV6"
 	  ],
 	  [
-	   "ALLENV6"
+	   "ALLENV6",
+       "POUTAV6",
+       "LUCASV6",
+       "MATTHEWV6",
+       "BRIANV6"
 	  ],
 	  [
-	   "HARUKAV6"
+	   "HARUKAV6",
+       "GUMIV6",
+       "FUIROV6",
+       "UNAV6SUGAR",
+       "UNAV6SPICY",
+       "SAKURAV6",
+       "SHIONV6",
+       "HIBIKIKOTOV6",
+       "GEKIYAKUV6",
+       "GALACOV6BLACK",
+       "GALACOV6WHITE",
+       "TSUINACHANV6",
+       "YUINAV6",
+       "CICHANV6",
+       "KANADEV6",
+       "UGEV6"
 	  ],
 	  [
-	   "AKITOV6"
+	   "AKITOV6",
+       "YUUV6",
+       "KYOV6",
+       "WILV6",
+       "ASASHIV6",
+       "TAKUV6",
+       "SHIKIROWENV6",
+       "KAZEHIKIV6",
+       "NAOKIV6"
 	  ],
 	  [
 	   "OSHAWOTT",
