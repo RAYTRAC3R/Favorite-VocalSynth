@@ -278,7 +278,10 @@ var arrays = {
        "YUINAV6",
        "CICHANV6",
        "KANADEV6",
-       "UGEV6"
+       "UGEV6",
+       "YUKARIV6",
+       "AKANEV6",
+       "AOIV6"
 	  ],
 	  [
 	   "AKITOV6",
