@@ -322,8 +322,10 @@ var arrays = {
 	   "RENRISV"
 	  ],
 	  [
+	   "GENBUSV"
 	  ],
 	  [
+	   "AIKOSV"
 	  ],
 	  [
 	  ],
