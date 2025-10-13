@@ -325,7 +325,11 @@ var arrays = {
 	   "GENBUSV"
 	  ],
 	  [
-	   "AIKOSV"
+	   "AIKOSV",
+       "CHIYUSV",
+       "SHIANSV",
+       "CANGQIONGSV",
+       "HAIYISV"
 	  ],
 	  [
 	  ],
