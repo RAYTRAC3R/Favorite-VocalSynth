@@ -340,10 +340,9 @@ var arrays = {
 	  [
 	  ]
 	 ],
-	 "Normal": [
+	 "SVS": [
 	  [],
 	  [
-	   "PIDGEY",
 	   "PIDGEOTTO",
 	   "PIDGEOT",
 	   "RATTATA",
@@ -424,55 +423,11 @@ var arrays = {
 	   "ARCEUS"
 	  ],
 	  [
-	   "PATRAT",
-	   "WATCHOG",
-	   "LILLIPUP",
-	   "HERDIER",
-	   "STOUTLAND",
-	   "PIDOVE",
-	   "TRANQUILL",
-	   "UNFEZANT",
-	   "UNFEZANT_1",
-	   "AUDINO",
-	   "MINCCINO",
-	   "CINCCINO",
-	   "DEERLING",
-	   "DEERLING_1",
-	   "DEERLING_2",
-	   "DEERLING_3",
-	   "SAWSBUCK",
-	   "SAWSBUCK_1",
-	   "SAWSBUCK_2",
-	   "SAWSBUCK_3",
-	   "BOUFFALANT",
-	   "RUFFLET",
-	   "BRAVIARY",
-	   "MELOETTA",
-	   "MELOETTA_1"
+	   "CHIYUSVS",
+	   "SHIANSVS",
+	   "CANGQIONGSVS"
 	  ],
 	  [
-	   "BUNNELBY",
-	   "DIGGERSBY",
-	   "FLETCHLING",
-	   "LITLEO",
-	   "PYROAR",
-	   "PYROAR_1",
-	   "FURFROU",
-	   "HELIOPTILE",
-	   "HELIOLISK",
-	   "PIDGEOT_1",
-	   "KANGASKHAN_1",
-	   "LOPUNNY_1",
-	   "AUDINO_1",
-	   "FURFROU_1",
-	   "FURFROU_2",
-	   "FURFROU_3",
-	   "FURFROU_4",
-	   "FURFROU_5",
-	   "FURFROU_6",
-	   "FURFROU_7",
-	   "FURFROU_8",
-	   "FURFROU_9"
 	  ],
 	  [
 	   "PIKIPEK",
